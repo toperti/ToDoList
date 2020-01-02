@@ -1,0 +1,10 @@
+<html>
+	<head>
+		<title> Tutorial Flask </title>
+		<link rel = 'stylesheet' href = '{{ url_for("static", filename = "css/main.css") }}'>
+	</head>
+
+	<body>
+		<div> {% block body %} {% endblock %} </div>
+	</body>
+</html>
